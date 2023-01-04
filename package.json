@@ -1,0 +1,32 @@
+{
+  "name": "test-extension",
+  "version": "1.0.0",
+  "publisher": "JatinSanghvi",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "displayName": "Test Extension",
+  "description": "",
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "test-extension.helloWorld",
+      "title": "Hello World"
+    }]
+  },
+  "activationEvents": [
+    "onCommand:test-extension.helloWorld"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "icon": "128x128.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JatinSanghvi/test-extension.git"
+  }}
