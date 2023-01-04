@@ -1,11 +1,11 @@
 {
-  "name": "test-extension",
+  "name": "test-extension-2",
   "version": "1.0.0",
   "publisher": "JatinSanghvi",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "displayName": "Test Extension",
+  "displayName": "Test Extension 2",
   "description": "",
   "categories": [
     "Other"
@@ -13,12 +13,12 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "test-extension.helloWorld",
+      "command": "test-extension-2.helloWorld",
       "title": "Hello World"
     }]
   },
   "activationEvents": [
-    "onCommand:test-extension.helloWorld"
+    "onCommand:test-extension-2.helloWorld"
   ],
   "scripts": {
     "lint": "eslint .",
