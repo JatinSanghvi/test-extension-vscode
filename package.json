@@ -1,11 +1,11 @@
 {
   "name": "platform-specific-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "JatinSanghvi",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "displayName": "Universal Extension",
+  "displayName": "Platform-Specific Extension",
   "description": "",
   "categories": [
     "Other"
