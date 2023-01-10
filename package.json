@@ -1,11 +1,11 @@
 {
-  "name": "test-extension",
+  "name": "platform-specific-extension",
   "version": "1.0.0",
   "publisher": "JatinSanghvi",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "displayName": "Test Extension",
+  "displayName": "Universal Extension",
   "description": "",
   "categories": [
     "Other"
@@ -13,12 +13,12 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "test-extension.helloWorld",
+      "command": "platform-specific-extension.helloWorld",
       "title": "Hello World"
     }]
   },
   "activationEvents": [
-    "onCommand:test-extension.helloWorld"
+    "onCommand:platform-specific-extension.helloWorld"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -28,5 +28,5 @@
   "icon": "128x128.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JatinSanghvi/test-extension.git"
+    "url": "https://github.com/JatinSanghvi/test-extension-vscode.git"
   }}
